@@ -1457,11 +1457,11 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .header-logo a {
     display: block;
-    margin: 9px 0 0 0;
+    margin: 5px 0 0 0;
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 120px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2807,6 +2807,7 @@ html.no-csstransitions .home-content__main {
     width: 8.4rem;
     border-radius: 50%;
     margin: 0 auto 1.2rem auto;
+    object-fit: cover;
 }
 
 .clients-testimonials .testimonials__name, 
